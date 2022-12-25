@@ -1,10 +1,13 @@
-import './App.css';
+import Counter from "../counter/Counter";
 
 function App() {
   return (
-    <div className="">
+    <div >
       <div>
-        <h1>React App</h1>
+        <h1 
+          className="text-red-500 text-center text-2xl"
+          >React App</h1>
+        <Counter />
       </div>
     </div>
   );
