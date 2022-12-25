@@ -1,12 +1,13 @@
+import Header from "../components/header"
+import Content from "../components/content"
+import Footer from "../components/footer"
 
 function App() {
   return (
-    <div >
-      <div>
-        <h1 
-          className="text-red-500 text-center text-2xl"
-          >React App</h1>
-      </div>
+    <div className="flex flex-col h-screen">
+      <Header />
+      <Content />
+      <Footer />
     </div>
   );
 }
